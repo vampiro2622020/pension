@@ -114,7 +114,7 @@ $uid=$_SESSION['login'];
 				$stmt->close();
 				if($rs)
 				{ ?>
-			<h3 style="color: red" align="left">Hatiaciones  reservadas por ti</h3>
+			<h3 style="color: red" align="left">Habitaciones  reservadas por ti</h3>
 				<?php }
 				else{
 							echo "";

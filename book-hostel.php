@@ -101,7 +101,7 @@ $('#fpm').val(data);
 						<div class="row">
 							<div class="col-md-12">
 								<div class="panel panel-primary">
-									<div class="panel-heading">Diligencia toda la información</div>
+									<div class="panel-heading">Debes de llenar todos los campos</div>
 									<div class="panel-body">
 										<form method="post" action="" class="form-horizontal">
 							<?php
@@ -152,7 +152,7 @@ while($row=$res->fetch_object())
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Tarifas por mes</label>
+<label class="col-sm-2 control-label">Tarifas por dias</label>
 <div class="col-sm-8">
 <input type="text" name="fpm" id="fpm"  class="form-control" >
 </div>
@@ -177,7 +177,7 @@ while($row=$res->fetch_object())
 <label class="col-sm-2 control-label">Duración</label>
 <div class="col-sm-8">
 <select name="duration" id="duration" class="form-control">
-<option value="">Selecciona duración en meses</option>
+<option value="">Selecciona duración en dias</option>
 <option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>

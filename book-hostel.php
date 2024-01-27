@@ -101,7 +101,7 @@ $('#fpm').val(data);
 						<div class="row">
 							<div class="col-md-12">
 								<div class="panel panel-primary">
-									<div class="panel-heading">Debes de llenar todos los campos</div>
+									<div class="panel-heading">Debes llenar todos los campos</div>
 									<div class="panel-body">
 										<form method="post" action="" class="form-horizontal">
 							<?php
@@ -114,7 +114,7 @@ $uid=$_SESSION['login'];
 				$stmt->close();
 				if($rs)
 				{ ?>
-			<h3 style="color: red" align="left">Hostal ya reservado por ti</h3>
+			<h3 style="color: red" align="left">Hatiaciones  reservadas por ti</h3>
 				<?php }
 				else{
 							echo "";
